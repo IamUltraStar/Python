@@ -69,7 +69,7 @@ var_string = "How are you?" if var_int > 18 else "Hello World!" # Pertenece a la
 var_dictionary_1 = { key:nombre for key, nombre in var_dictionary} # Genera un diccionario a partir de otro diccionario de acuerdo a la expresión
 
 # Función lambda
-function_sum = lambda x : sum(var_list) # Se utiliza para procesos pequeños
+function_sum = lambda x : sum(x) # Se utiliza para procesos pequeños
 function_filter_par = lambda x : x % 2 == 0
 
 # Función
